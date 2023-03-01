@@ -1,6 +1,29 @@
-body{background-color: rgb(205, 180, 149);}
+body{background-color: rgb(205, 180, 149);font-family: 'Aboreto', cursive;}
+h1,h2,h3,h5,h6{font-family: 'Aboreto', cursive;}
+a{font-family: 'Aboreto', cursive;}
 
 .navbar{min-height: 5em;}
 .presentation{background-color: rgba(114, 69, 21, 0.791);min-height: 20em;}
 .reseaux a img{max-height:50px;}
 .mentions p a{color:white;}
+
+.reveal [class*="reveal-"]{
+    opacity: 0!important;
+    transform: translateY(30px)!important;
+}
+
+[class*="reveal-"]{
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+.reveal-2{
+    transition-delay: .1s;;
+}
+
+.reveal-3{
+    transition-delay: .3s;;
+}
+
+.reveal-4{
+    transition-delay: .5s;;
+}
