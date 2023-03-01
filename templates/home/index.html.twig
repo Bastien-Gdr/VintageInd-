@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Vintage Indé !
+{% endblock %}
+
+{% block body %}
+
+	<div class="appercu col-10 offset-1 d-flex mt-5">
+		<div class="titre text-center my-auto col-6">
+			<h1>Vintage Indé</h1>
+			<h5 class="h2">Vous offre un service personnalisé</h5>
+		</div>
+		<div class="images col-6">
+			<img src="{{ asset('images/canape.jpg') }}" class="img-fluid" alt="">
+		</div>
+	</div>
+
+	<div class="presentation text-center my-5">
+		<div class="col-8 offset-2 pt-5">
+			<h3>En quelques mots</h3>
+			<p class="">
+				Vintage indé compose spécialement pour vous un espace dans votre boutique présentant des articles en accords avec le style de vos produits et de votre boutique, des vêtements de seconde mains. Nous vous offrons également un espace qui permettra à vos clients de pouvoir s'installer afin de leur offrir une expérience agréable et inscrire votre commerce dans leur mémoire comme un moment agréable.
+			</p>
+		</div>
+	</div>
+
+	<div class="d-flex col-10 offset-1">
+		<div class="col-6 text-center">
+			<img src="{{ asset('images/plante.jpg') }}" class="img-fluid col-6" alt="">
+		</div>
+		<div class="valeur col-8 text-center my-auto">
+			<h5 class="h2 col-6">Nos valeurs</h5>
+			<p class="col-6">
+				Nous sommes une entreprise qui accorde de l'importance à notre environnement et notre futur. C'est pour ceci que nous avons fait le choix de travailler exclusivement avec des articles de secondes mains ou issus de fabrication éco-responsable.
+			</p>
+		</div>
+
+	</div>
+
+
+{% endblock %}
