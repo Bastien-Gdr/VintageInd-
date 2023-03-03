@@ -3,17 +3,25 @@ h1,h2,h3,h5,h6{font-family: 'Aboreto', cursive;}
 a{font-family: 'Aboreto', cursive;}
 
 .navbar{min-height: 5em;}
-.presentation{background-color: rgba(114, 69, 21, 0.791);min-height: 20em;}
+.resume{background-color: rgba(114, 69, 21, 0.791);min-height: 20em;}
+.presentation{background-color: rgba(119, 105, 94, 0.701);min-height: 20em;}
 .reseaux a img{max-height:50px;}
 .mentions p a{color:white;}
+.images, .card{box-shadow: 0 20px 40px rgba(0,0,0,.5);
+}
+.up{background-color: bisque;color: black;position: fixed;bottom: 10%;right: 5%;border-radius: 50%;}
+
+.card{background-color: rgba(227, 182, 128, 0.379);}
+
+/* Gérer l'apparition */
 
 .reveal [class*="reveal-"]{
     opacity: 0!important;
-    transform: translateY(30px)!important;
+    transform: translateY(60px)!important;
 }
 
 [class*="reveal-"]{
-    transition: 1s cubic-bezier(.5, 0, 0, 1);
+    transition: 1.5s cubic-bezier(.5, 0, 0, 1);
 }
 
 .reveal-2{
