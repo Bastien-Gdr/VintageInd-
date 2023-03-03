@@ -29,7 +29,7 @@
 			<img src="{{ asset('images/plante.jpg') }}" class="images img-fluid col-6" alt="">
 		</div>
 		<div class="valeur col-8 text-center my-auto">
-			<h5 class="h2 col-6 reveal-2">Nos valeurs</h5>
+			<h5 class="col-6 h2 reveal-2">Nos valeurs</h5>
 			<p class="col-6 mt-3 reveal-3">
 				Nous sommes une entreprise qui accorde de l'importance à notre environnement et notre futur. C'est pour ceci que nous avons fait le choix de travailler exclusivement avec des articles de secondes mains ou issus de fabrication éco-responsable.
 			</p>
@@ -45,6 +45,17 @@
 		<h5 class="h2 text-center reveal-1">Me contacter</h5>
 		<div class="card col-6 offset-3 mt-5 reveal-2">
 			<div class="card-body ">
+				{% for label,messages in app.flashes %}
+
+					<div class="container">
+						<div class="alert alert-{{ label }}">
+							{% for message in messages %}
+								<p>{{ message | raw }}</p>
+							{% endfor %}
+						</div>
+					</div>
+
+				{% endfor %}
 
 				{{form_start(form)}}
 				{{form_widget(form)}}
