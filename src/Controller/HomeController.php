@@ -25,9 +25,9 @@ class HomeController extends AbstractController
 
             $manager->persist($contact);
             $manager->flush();
+            $this->addFlash('success','Votre demande de contact a bien été envoyée !');
         }
 
-        $this->addFlash('success','Votre demande de contact a bien été envoyée !');
 
 
 

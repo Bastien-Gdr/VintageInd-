@@ -1,19 +1,21 @@
 body{background:linear-gradient(rgb(32, 88, 85),rgb(21, 65, 63));font-family: 'Aboreto', cursive;color: white ;}
-h1,h2,h3,h5,h6{font-family: 'Aboreto', cursive;color:rgb(210, 181, 115);}
+h1,h2,h3,h5,h6{font-family: 'Aboreto', cursive;color:rgb(221, 171, 53);}
 a{font-family: 'Aboreto', cursive;}
-.h2{color:rgb(210, 181, 115);;}
+.nav-link{font-weight: bold;}
+.h2{color:rgb(221, 173, 61);;}
 
 /* rgb(205, 180, 149) */
 
-.navbar{min-height: 5em;background-color:rgb(210, 181, 115, 0.9);}
-.resume{background:linear-gradient(rgb(60, 121, 118),rgb(35, 99, 96)) ;min-height: 20em;} 
+.navbar{min-height: 5em;background-color:rgba(218, 174, 71, 0.805);box-shadow: 0 20px 20px rgba(0,0,0,.3);}
+.resume{background:linear-gradient(rgb(60, 121, 118),rgb(35, 99, 96)) ;min-height: 20em;box-shadow: 10px 20px 30px rgba(0,0,0,.3);} 
 /* rgba(114, 69, 21, 0.791) */
-.presentation{background: linear-gradient(rgb(72, 157, 153),rgb(54, 120, 117));min-height: 20em;}
+.presentation{background: linear-gradient(rgb(72, 157, 153),rgb(54, 120, 117));min-height: 20em;box-shadow: 10px 20px 30px rgba(0,0,0,.3);}
 /* rgba(119, 105, 94, 0.701) */
 .reseaux a img{max-height:50px;}
 .mentions p a{color:white;}
-.images, .card{box-shadow: 0 20px 40px rgba(0,0,0,.5);border: solid 5px rgb(214, 170, 65);}
-.up{background-color: bisque;color: black;position: fixed;bottom: 10%;right: 5%;border-radius: 50%;}
+.images{box-shadow: 0 20px 40px rgba(0,0,0,.4);border: solid 5px rgb(214, 170, 65);}
+.card{box-shadow: 0 20px 40px rgba(0,0,0,.3);}
+.up{background-color: rgba(221, 173, 61, 0.636);color: black;position: fixed;bottom: 10%;right: 5%;border-radius: 50%;}
 
 .card{background-color: rgba(125, 205, 208, 0.411);}
 

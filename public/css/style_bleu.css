@@ -1,0 +1,45 @@
+body{background:linear-gradient(rgb(241, 234, 226),rgb(200, 182, 166));font-family: 'Aboreto', cursive;color: white ;}
+h1,h2,h3,h5,h6{font-family: 'Aboreto', cursive;color:white;}
+a{font-family: 'Aboreto', cursive;}
+.nav-link{font-weight: bold;color: rgb(241, 234, 226);}
+.h2{color:rgb(46, 79, 79);}
+
+/* rgb(205, 180, 149) */
+
+.navbar{min-height: 5em;background-color:rgb(46, 79, 79);box-shadow: 0 20px 20px rgba(0,0,0,.3);}
+.footer{background-color: rgb(46, 79, 79);}
+.resume{background:linear-gradient(rgb(46, 79, 79),rgb(27, 47, 47)) ;min-height: 20em;box-shadow: 10px 20px 30px rgba(0,0,0,.3);} 
+.light{color: rgb(241, 234, 226);}
+/* rgba(114, 69, 21, 0.791) */
+.presentation{background: linear-gradient(rgb(5, 50, 52),rgb(32, 39, 39));min-height: 20em;box-shadow: 10px 20px 30px rgba(0,0,0,.3);}
+/* rgba(119, 105, 94, 0.701) */
+.reseaux a img{max-height:50px;}
+.mentions p a{color:white;}
+.images{box-shadow: 0 20px 40px rgba(0,0,0,.4);border: solid 5px rgb(46, 79, 79);}
+.card{box-shadow: 0 20px 40px rgba(0,0,0,.3);}
+.up{background-color: rgb(11, 80, 82);color: whitesmoke;position: fixed;bottom: 10%;right: 5%;border-radius: 50%;}
+
+.card{background-color: rgb(5, 49, 51);}
+
+/* Gérer l'apparition */
+
+.reveal [class*="reveal-"]{
+    opacity: 0!important;
+    transform: translateY(60px)!important;
+}
+
+[class*="reveal-"]{
+    transition: 1.5s cubic-bezier(.5, 0, 0, 1);
+}
+
+.reveal-2{
+    transition-delay: .1s;;
+}
+
+.reveal-3{
+    transition-delay: .3s;;
+}
+
+.reveal-4{
+    transition-delay: .5s;;
+}
